@@ -78,6 +78,7 @@ div.double-box {
   width: 49vw;
   /* border: 1px solid black; */
   margin-inline: -3px;
+  vertical-align: middle;
 }
 main div.double-box:first-child {
   text-align: end;
