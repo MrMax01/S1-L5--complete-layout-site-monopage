@@ -101,3 +101,23 @@ cite {
 cite span {
   font-size: 0.9rem;
 }
+
+/*CORRELATI*/
+aside {
+  padding: 2em 1em;
+}
+.box {
+  /* width: 90%; */
+  border: 1px solid #dee1e3;
+  text-align: center;
+  margin-bottom: 2em;
+}
+div.box-content {
+  padding: 1em 0.3em;
+}
+.box img {
+  width: 100%;
+}
+h3 {
+  margin-bottom: 0.6em;
+}
