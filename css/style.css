@@ -1,5 +1,5 @@
 /* Your styles here */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap");
 
 /*GENEREAL*/
 *,
@@ -19,7 +19,8 @@ p {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: #25a2c3;
@@ -73,4 +74,30 @@ main img {
 }
 h4 {
   margin-bottom: 0.6em;
+}
+
+/*SECTION*/
+section {
+  padding: 3em 1em 2em;
+  text-align: center;
+  background-color: #e22d0e;
+}
+
+section h5 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 0.9em;
+}
+section p {
+  color: white;
+}
+blockquote p {
+  font-style: italic;
+}
+
+cite {
+  color: white;
+}
+cite span {
+  font-size: 0.9rem;
 }
