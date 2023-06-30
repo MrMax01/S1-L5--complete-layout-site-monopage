@@ -1,0 +1,186 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap");
+
+/*GENEREAL*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65em;
+}
+p {
+  margin-bottom: 1.6em;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #25a2c3;
+  line-height: 1.5em;
+  margin-bottom: 0.6em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1em;
+}
+
+/* NAV HEADER */
+nav {
+  background-color: black;
+  text-align: center;
+  padding: 2em;
+}
+
+header {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10% 20%;
+  text-align: center;
+}
+nav img {
+  height: 3em;
+}
+
+button {
+  background-color: #f04c2f;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*MAIN*/
+main {
+  padding: 5em 0;
+}
+
+main img {
+  height: 15em;
+  border-radius: 50%;
+  margin-bottom: 1.6em;
+}
+
+div.double-box {
+  display: inline-block;
+  width: 49vw;
+  /* border: 1px solid black; */
+  margin-inline: -3px;
+}
+main div.double-box:first-child {
+  text-align: end;
+  padding-right: 1em;
+}
+main div.double-box:last-child {
+  padding-left: 1em;
+}
+
+/*SECTION*/
+section {
+  padding: 3em 1em 2em;
+  text-align: center;
+  background-color: #e22d0e;
+}
+
+section h5 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 0.9em;
+}
+section p {
+  font-size: 1.4rem;
+  color: white;
+}
+blockquote p {
+  font-style: italic;
+}
+
+cite {
+  color: white;
+}
+cite span {
+  font-size: 0.8rem;
+}
+
+/*CORRELATI*/
+aside {
+  padding: 2em 1em;
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  border: 1px solid #dee1e3;
+  text-align: center;
+  margin-bottom: 2em;
+
+  width: 25vw;
+}
+div.box-content {
+  padding: 1em 0.3em;
+}
+div.img-box {
+  height: 30vh;
+}
+div.img1 {
+  background-image: url(../images/foto1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.img2 {
+  background-image: url(../images/foto2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-position-y: bottom;
+}
+div.img3 {
+  background-image: url(../images/foto3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+div.box:nth-of-type(2) {
+  margin-inline: 1em;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #25a2c3;
+  padding: 2em 1em;
+}
+
+footer > * {
+  color: white;
+}
+footer a {
+  color: white;
+}
+footer p {
+  font-weight: lighter;
+}
+
+h2 {
+  color: white;
+  font-size: 2.5rem;
+}
+footer div.box-contact {
+  width: 15em;
+  text-align: left;
+  margin-inline: auto;
+}
+
+footer div.box-contact p:last-of-type {
+  font-size: 0.8rem;
+  text-align: center;
+}
