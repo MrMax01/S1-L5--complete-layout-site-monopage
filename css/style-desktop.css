@@ -36,8 +36,8 @@ h1 {
 /* NAV HEADER */
 nav {
   background-color: black;
-  text-align: center;
-  padding: 2em;
+  /* text-align: center; */
+  padding: 1em;
 }
 
 header {
